@@ -1,8 +1,4 @@
 // Importa as imagens usadas na página
-import ImgComunidade from "../../../assets/ImgComunidadeleitura.png";
-import ImgLeitura from "../../../assets/ImgLeitura.png";
-import ImgTransformacao from "../../../assets/ImgTransformacao.png";
-import ImgBalanca from "../../../assets/ImgBalanca.png";
 
 // Importa o arquivo de estilos específico para este componente
 import s from './Inicio.module.scss';
