@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* Estilos principais para o cabeçalho */
+.header {
+  /* Define o layout como um contêiner flexível */
+  display: flex;
+  /* Espaça os itens de forma que o espaço entre eles seja distribuído igualmente */
+  justify-content: space-between;
+  /* Alinha os itens ao centro verticalmente */
+  align-items: center;
+  /* Adiciona um padding de 1rem ao redor do cabeçalho */
+  padding: 1rem;
+  /* Define um fundo com gradiente de azul escuro para azul claro */
+  background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+  /* Define a cor do texto como branco */
+  color: white;
+  /* Estilos para a seção dentro do cabeçalho */
+  /* Estilos para o logo dentro do cabeçalho */
+  /* Estilos para o título do cabeçalho */
+  /* Estilos para o menu de navegação dentro do cabeçalho */
+  /* Estilos para a área de pesquisa no cabeçalho */
+}
+.header__section {
+  /* Exibe as seções com layout flexível */
+  display: flex;
+  /* Alinha os itens ao centro verticalmente */
+  align-items: center;
+}
+.header__logo {
+  /* Define a largura do logo em rem (unidade relativa) */
+  width: 3rem;
+  /* Mantém a altura proporcional ao logo */
+  height: auto;
+  /* Adiciona um espaço à direita do logo */
+  margin-right: 1rem;
+}
+.header__title {
+  /* Define o tamanho da fonte para o título */
+  font-size: 1.8rem;
+  /* Define a cor do texto como branco */
+  color: white;
+}
+.header__nav {
+  /* Estilos para a lista de navegação */
+  /* Estilos para cada item de navegação */
+  /* Estilos para os links de navegação */
+}
+.header__nav-list {
+  /* Exibe os itens da lista de forma flexível */
+  display: flex;
+  /* Remove os marcadores da lista */
+  list-style: none;
+  /* Remove o padding e margin padrão da lista */
+  padding: 0;
+  margin: 0;
+}
+.header__nav-item {
+  /* Adiciona uma margem à direita e à esquerda de 1rem */
+  margin: 0 1rem;
+}
+.header__nav-link {
+  /* Remove a decoração do texto */
+  text-decoration: none;
+  /* Define a cor do texto como branco */
+  color: white;
+  /* Define o tamanho da fonte */
+  font-size: 1rem;
+  /* Adiciona uma transição suave para a cor do texto */
+  transition: color 0.3s;
+  /* Estilo para quando o link é sobrevoado com o mouse */
+}
+.header__nav-link:hover {
+  /* Muda a cor para um amarelo quando o link é hoverizado */
+  color: #ffcc00;
+}
+.header__search {
+  /* Exibe os itens dentro da pesquisa com layout flexível */
+  display: flex;
+  /* Alinha os itens ao centro verticalmente */
+  align-items: center;
+  /* Estilos para o campo de entrada de pesquisa */
+  /* Estilos para o botão de pesquisa */
+}
+.header__search-input {
+  /* Adiciona padding no campo de entrada */
+  padding: 0.5rem;
+  /* Define a borda do campo de entrada */
+  border: 1px solid #ccc;
+  /* Adiciona bordas arredondadas */
+  border-radius: 4px;
+  /* Adiciona uma margem à direita do campo de entrada */
+  margin-right: 0.5rem;
+  /* Define uma largura relativa para o campo de entrada */
+  width: 12rem;
+}
+.header__search-button {
+  /* Remove o fundo e a borda do botão */
+  background: none;
+  border: none;
+  /* Define o cursor como um ponteiro quando o botão é clicado */
+  cursor: pointer;
+  /* Exibe os itens dentro do botão com layout flexível */
+  display: flex;
+  /* Alinha os itens ao centro verticalmente */
+  align-items: center;
+  /* Estilos para o ícone dentro do botão */
+}
+.header__search-button-icon {
+  /* Define o tamanho do ícone de pesquisa */
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Estilos responsivos para telas com largura máxima de 1024px */
+@media (max-width: 1024px) {
+  .header {
+    /* Permite que os itens no cabeçalho se ajustem e quebre em várias linhas, se necessário */
+    flex-wrap: wrap;
+    /* Adiciona padding adicional nas laterais */
+    padding: 1rem 2rem;
+    /* Ajusta o tamanho da fonte do título */
+    /* Ajusta os itens de navegação para se adaptarem melhor em telas menores */
+    /* Ajusta a área de pesquisa para telas menores */
+  }
+  .header__title {
+    font-size: 1.6rem;
+  }
+  .header__nav-item {
+    /* Diminui a margem entre os itens */
+    margin: 0 0.5rem;
+  }
+  .header__nav-link {
+    /* Ajusta o tamanho da fonte dos links */
+    font-size: 1rem;
+  }
+  .header__search {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .header__search-input {
+    /* Faz o campo de entrada ocupar toda a largura disponível */
+    width: 100%;
+  }
+}
+/* Estilos responsivos para telas com largura máxima de 768px */
+@media (max-width: 768px) {
+  .header {
+    /* Alinha os itens do cabeçalho em coluna, ao invés de linha */
+    flex-direction: column;
+    /* Centraliza o texto no cabeçalho */
+    text-align: center;
+    /* Ajusta o tamanho da fonte do título */
+    /* Ajusta a lista de navegação para se adaptar a telas menores */
+    /* Ajusta a área de pesquisa para telas menores */
+  }
+  .header__title {
+    font-size: 1.4rem;
+    /* Adiciona uma margem inferior */
+    margin-bottom: 1rem;
+  }
+  .header__nav-list {
+    /* Alinha os itens da lista em coluna */
+    flex-direction: column;
+    /* Adiciona um espaçamento entre os itens */
+    gap: 0.5rem;
+  }
+  .header__nav-item {
+    /* Remove a margem lateral dos itens */
+    margin: 0;
+  }
+  .header__search-input {
+    /* Ajusta a largura do campo de entrada */
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header__search-button-icon {
+    /* Ajusta o tamanho do ícone do botão */
+    width: 1rem;
+    height: 1rem;
+  }
+}
+/* Estilos responsivos para telas com largura máxima de 480px */
+@media (max-width: 480px) {
+  .header {
+    /* Ajusta o padding para telas menores */
+    padding: 1rem;
+    /* Ajusta o tamanho da fonte do título */
+    /* Ajusta a largura do logo */
+    /* Ajusta o tamanho da fonte dos links de navegação */
+    /* Ajusta a área de pesquisa para telas pequenas */
+  }
+  .header__title {
+    font-size: 1.2rem;
+  }
+  .header__logo {
+    width: 2.5rem;
+  }
+  .header__nav-link {
+    font-size: 0.9rem;
+  }
+  .header__search-input {
+    /* Faz o campo de entrada ocupar toda a largura disponível */
+    width: 100%;
+    /* Ajusta o tamanho da fonte */
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=Header.css.map */

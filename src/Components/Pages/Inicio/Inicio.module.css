@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.mainInicio {
+  background-color: #fff;
+}
+.mainInicio .banner {
+  background-image: url("../../../assets/ImgFazerDoacao.png");
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.mainInicio .banner .bannerContent {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.mainInicio .banner .bannerContent h1 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  max-width: 60%;
+}
+.mainInicio .paraQuedoar {
+  background-color: rgba(1, 87, 148, 0.3);
+  padding: 5vh 0;
+  text-align: center;
+}
+.mainInicio .paraQuedoar .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainInicio .paraQuedoar h2 {
+  font-size: 2.5vw;
+  color: #0D47A1;
+  margin-bottom: 3vh;
+}
+.mainInicio .paraQuedoar .reasons {
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainInicio .paraQuedoar .reasons .reason {
+  background-color: rgba(1, 87, 148, 0.3);
+  border-radius: 0.5rem;
+  padding: 2vh;
+  width: 20vw;
+  max-width: 220px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.mainInicio .paraQuedoar .reasons .reason:hover {
+  transform: scale(1.05);
+}
+.mainInicio .paraQuedoar .reasons .reason img {
+  max-width: 6vw;
+  margin-bottom: 1.5vh;
+}
+.mainInicio .paraQuedoar .reasons .reason p {
+  font-size: 1vw;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 25vh;
+  }
+  .banner .bannerContent h1 {
+    font-size: 5vw;
+  }
+  .paraQuedoar {
+    padding: 3vh 0;
+  }
+  .paraQuedoar h2 {
+    font-size: 4vw;
+  }
+  .paraQuedoar .reasons {
+    flex-direction: column;
+    gap: 3vh;
+  }
+  .paraQuedoar .reasons .reason {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .paraQuedoar .reasons .reason img {
+    max-width: 10vw;
+  }
+  .paraQuedoar .reasons .reason p {
+    font-size: 2.5vw;
+  }
+}
+@media (max-width: 480px) {
+  .banner {
+    height: 20vh;
+  }
+  .banner .bannerContent h1 {
+    font-size: 6vw;
+  }
+  .paraQuedoar .reasons .reason {
+    padding: 4vh;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .paraQuedoar .reasons .reason img {
+    max-width: 20vw;
+  }
+  .paraQuedoar .reasons .reason p {
+    font-size: 3.5vw;
+  }
+}/*# sourceMappingURL=Inicio.module.css.map */

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* Variáveis */
+/* Estilos principais para o cabeçalho */
+.headerInicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+  color: #fff;
+}
+.headerInicio .headerSection {
+  display: flex;
+  align-items: center;
+}
+.headerInicio .headerLogo {
+  width: 3rem;
+  height: auto;
+  margin-right: 1rem;
+}
+.headerInicio .headerTitle {
+  font-size: 1.8rem;
+  color: #fff;
+}
+.headerInicio .headerNav .headerNavList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.headerInicio .headerNav .headerNavItem {
+  margin: 0 1rem;
+}
+.headerInicio .headerNav .headerNavLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.headerInicio .headerNav .headerNavLink:hover {
+  color: #ffcc00;
+}
+.headerInicio .headerSearch {
+  display: flex;
+  align-items: center;
+}
+.headerInicio .headerSearch .headerSearchInput {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  width: 12rem;
+}
+.headerInicio .headerSearch .headerSearchButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.headerInicio .headerSearch .headerSearchButton .headerSearchIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Estilos responsivos para telas com largura máxima de 1024px */
+@media (max-width: 1024px) {
+  .headerInicio {
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+  }
+  .headerInicio .headerTitle {
+    font-size: 1.6rem;
+  }
+  .headerInicio .headerNav .headerNavItem {
+    margin: 0 0.5rem;
+  }
+  .headerInicio .headerNav .headerNavLink {
+    font-size: 1rem;
+  }
+  .headerInicio .headerSearch {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .headerInicio .headerSearch .headerSearchInput {
+    width: 100%;
+  }
+}
+/* Estilos responsivos para telas com largura máxima de 768px */
+@media (max-width: 768px) {
+  .headerInicio {
+    flex-direction: column;
+    text-align: center;
+  }
+  .headerInicio .headerTitle {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .headerInicio .headerNav .headerNavList {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .headerInicio .headerNav .headerNavItem {
+    margin: 0;
+  }
+  .headerInicio .headerSearch .headerSearchInput {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .headerInicio .headerSearch .headerSearchButton .headerSearchIcon {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+/* Estilos responsivos para telas com largura máxima de 480px */
+@media (max-width: 480px) {
+  .headerInicio {
+    padding: 1rem;
+  }
+  .headerInicio .headerTitle {
+    font-size: 1.2rem;
+  }
+  .headerInicio .headerLogo {
+    width: 2.5rem;
+  }
+  .headerInicio .headerNav .headerNavLink {
+    font-size: 0.9rem;
+  }
+  .headerInicio .headerSearch .headerSearchInput {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=Header.module.css.map */
