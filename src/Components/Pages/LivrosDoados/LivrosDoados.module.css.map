@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"LivrosDoados.module.css"}
+{"version":3,"sources":["LivrosDoados.module.scss","LivrosDoados.module.css"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,aAAA;EACA,mBAAA;EACA,6BAAA;ACCJ;ADCI;EAEA,YAAA;ACAJ","file":"LivrosDoados.module.css"}

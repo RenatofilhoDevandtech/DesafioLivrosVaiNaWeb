@@ -1,1 +1,9 @@
-/*# sourceMappingURL=LivrosDoados.module.css.map */
+.sectionlivrosDoados {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sectionlivrosDoados img {
+  height: 50vh;
+}/*# sourceMappingURL=LivrosDoados.module.css.map */
