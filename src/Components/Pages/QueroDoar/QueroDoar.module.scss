@@ -76,3 +76,18 @@
     opacity: 1;
   }
 }
+@media (max-width: 780px) {
+
+  .queroDoarsection{
+     height: 100vh;
+    P{
+      font-size: 18px;
+      text-align: center;
+      width: 70%;
+    }
+  }
+  .formqueroDoar{
+    width: 90%;
+    font-size: 14px;
+  }
+}

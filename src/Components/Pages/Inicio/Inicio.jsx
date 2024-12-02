@@ -11,7 +11,7 @@ export default function Inicio() {
   return (
     <main className={s.mainInicio}>
       <section className={s.primeirasecaoinicio}>
-          <h2>VENHA FAZER PARTE DA REDE DE DOAÇÃO </h2>
+          <h2>VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO </h2>
       </section>
 
       <section className= {s.porqueDoarSection}>

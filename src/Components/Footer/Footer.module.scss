@@ -29,3 +29,20 @@
     }
 
   }
+  @media (max-width:780px){
+    .footerContent{
+      flex-direction: column;
+
+      nav {
+
+        width: 60%;
+      }
+    }
+    .footerFim{
+    font-size: 12px;
+    p {
+      width: 60%;
+      text-align: center;
+    }
+    }
+  }
