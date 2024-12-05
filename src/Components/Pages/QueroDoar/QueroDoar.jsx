@@ -9,13 +9,13 @@ export default function QueroDoar() {
     
           <form className={s.formqueroDoar} action="">
             <div className={s.divformTitulo}>
-            <img src= {livroTitulo} alt="livro azul com titulo informação do livro " />
+              <img src= {livroTitulo} alt="livro azul com titulo informação do livro " />
             </div>
-            <input className={s.inputform} type="text" name="" id="" placeholder='Titulo'/>
-            <input className={s.inputform} type="text" name="" id="" placeholder='Categoria'/>
-            <input className={s.inputform} type="text" name="" id="" placeholder='Autor'/>
-            <input className={s.inputform} type="text" name="" id="" placeholder='Link da Imagem'/>
-            <input className={s.inputButtonForm} type="Submit" value="Doar" />
+              <input className={s.inputform} type="text" name="" id="" placeholder='Titulo'/>
+              <input className={s.inputform} type="text" name="" id="" placeholder='Categoria'/>
+              <input className={s.inputform} type="text" name="" id="" placeholder='Autor'/>
+              <input className={s.inputform} type="text" name="" id="" placeholder='Link da Imagem'/>
+              <input className={s.inputButtonForm} type="Submit" value="Doar" />
           </form>
       
      

@@ -13,21 +13,21 @@ export default function Footer() {
         <section className={s.footerContent}>
           <p className={s.footerPhone}>4002-8922</p>
             <nav className={s.footerSocialLinks}>
-            <a href="#" aria-label="Facebook">
-              <img src={Iconfacebook} alt="imagem na cor branca da logo Facebook" />
-            </a>
-            <a href="#" aria-label="Twitter">
-              <img src={IconTwitter} alt="imagem na cor branca da logo Twitter" />
-            </a>
-            <a href="#" aria-label="YouTube">
-              <img src={Iconyoutube} alt="imagem na cor branca da logo YouTube" />
-            </a>
-            <a href="#" aria-label="LinkedIn">
-              <img src={Iconlinkedin} alt="imagem na cor branca da logo LinkedIn" />
-            </a>
-            <a href="#" aria-label="Instagram">
-              <img src={Iconinstagram} alt="imagem na cor branca da logo Instagram" />
-            </a>
+              <a href="#" aria-label="Facebook">
+                <img src={Iconfacebook} alt="imagem na cor branca da logo Facebook" />
+              </a>
+              <a href="#" aria-label="Twitter">
+                <img src={IconTwitter} alt="imagem na cor branca da logo Twitter" />
+              </a>
+              <a href="#" aria-label="YouTube">
+                <img src={Iconyoutube} alt="imagem na cor branca da logo YouTube" />
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <img src={Iconlinkedin} alt="imagem na cor branca da logo LinkedIn" />
+              </a>
+             <a href="#" aria-label="Instagram">
+                <img src={Iconinstagram} alt="imagem na cor branca da logo Instagram" />
+              </a>
             </nav>
         </section>
         <section className={s.footerFim}>
