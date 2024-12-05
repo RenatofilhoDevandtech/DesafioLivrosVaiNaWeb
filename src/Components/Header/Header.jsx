@@ -1,4 +1,4 @@
-import LogoLivro from "../../assets/Logolivro.png";
+import LogoLivro from "../../assets/LogoLivro.png";
 import pesquisa from "../../assets/pesquisa.png";
 import Inicio from "../Pages/Inicio/Inicio.jsx";
 import LivrosDoados from "../Pages/LivrosDoados/LivrosDoados.jsx";
