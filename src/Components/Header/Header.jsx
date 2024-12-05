@@ -5,6 +5,7 @@ import LivrosDoados from "../Pages/LivrosDoados/LivrosDoados.jsx";
 import QueroDoar from "../Pages/QueroDoar/QueroDoar.jsx";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import s from './Header.module.scss';
+
 export default function Header() {
   return (
     <BrowserRouter>
@@ -13,22 +14,22 @@ export default function Header() {
           <img src={LogoLivroimg} alt="Imagem de capa do livro" className={s.headerLogo} />
           <h1 className={s.headerTitle}>Livros Vai na Web</h1>
         </section>
-          <nav className={s.headerNav}>
-            <ul className={s.headerNavList}>
-             <li className={s.headerNavItem}>
+        <nav className={s.headerNav}>
+          <ul className={s.headerNavList}>
+            <li className={s.headerNavItem}>
               <Link to="/" className={s.headerNavLink}>Inicio</Link>
-             </li>
-              <li className={s.headerNavItem}>
+            </li>
+            <li className={s.headerNavItem}>
               <Link to="/livros-doados" className={s.headerNavLink}>Livros Doados</Link>
-              </li>
-              <li className={s.headerNavItem}>
+            </li>
+            <li className={s.headerNavItem}>
               <Link to="/quero-doar" className={s.headerNavLink}>Quero Doar</Link>
-              </li>
+            </li>
           </ul>
         </nav>
         <section className={s.headerSearch}>
           <input type="text" className={s.headerSearchInput} placeholder="Pesquisar..." />
-            <button className={s.headerSearchButton}>
+          <button className={s.headerSearchButton}>
             <img src={pesquisa} alt="Ícone de pesquisa" className={s.headerSearchIcon} />
           </button>
         </section>
