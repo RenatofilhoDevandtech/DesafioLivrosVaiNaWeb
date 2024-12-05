@@ -1,34 +1,24 @@
-import './QueroDoar.scss';
+import s from'./QueroDoar.module.scss';
 import livroTitulo from "../../../assets/livroTitulo.png"
+
 
 export default function QueroDoar() {
   return (
-    <div className="quero-doar">
+    <section className={s.queroDoarsection}>
       <p>Por favor, preencha o formulário com suas informações e as informações dos livros.</p>
-      <main>
-        <div className="form-container">
-         <img src= {livroTitulo} alt="livro azul com titulo informação do livro " />
-          <form action="">
-            <div className="form-group">
-              <label htmlFor="titulo">Título</label>
-              <input type="text" id="titulo" name="titulo" />
+    
+          <form className={s.formqueroDoar} action="">
+            <div className={s.divformTitulo}>
+              <img src= {livroTitulo} alt="livro azul com titulo informação do livro " />
             </div>
-            <div className="form-group">
-              <label htmlFor="categoria">Categoria</label>
-              <input type="text" id="categoria" name="categoria" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="autor">Autor</label>
-              <input type="text" id="autor" name="autor" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="linkImagem">Link da Imagem</label>
-              <input type="text" id="linkImagem" name="linkImagem" />
-            </div>
-            <button type="submit">Doar</button>
+              <input className={s.inputform} type="text" name="" id="" placeholder='Titulo'/>
+              <input className={s.inputform} type="text" name="" id="" placeholder='Categoria'/>
+              <input className={s.inputform} type="text" name="" id="" placeholder='Autor'/>
+              <input className={s.inputform} type="text" name="" id="" placeholder='Link da Imagem'/>
+              <input className={s.inputButtonForm} type="Submit" value="Doar" />
           </form>
-        </div>
-      </main>
-    </div>
+      
+     
+    </section>
   );
 }

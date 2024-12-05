@@ -1,57 +1,48 @@
-.footer {
-  background-color: #005695;
-  color: white;
-  padding: 20px 0;
-
-  .container {
+.footerContent {
+    background-color: #005695;
+    color: white;
+    height: 15vh;
     display: flex;
-    flex-direction: column;
+    padding: 0 3%;
+    justify-content: space-around;
     align-items: center;
-  }
+   
 
-  .footerContent {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 800px;
-    margin-bottom: 10px;
-
-    @media (max-width: 600px) {
-      flex-direction: column;
+    nav{
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
+
+
     }
+    
   }
-
-  .footerPhone {
-    font-size: 1.2rem;
-
-    @media (max-width: 600px) {
-      margin-bottom: 10px;
-    }
-  }
-
-  .footerSocialLinks {
+  .footerFim{
+    height: 6vh;
+    background-color: black;
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    p {
+      color: #fff;
+    }
 
-    a img {
-      width: 24px;
-      height: 24px;
-      transition: transform 0.3s;
+  }
+  @media (max-width:780px){
+    .footerContent{
+      flex-direction: column;
 
-      &:hover {
-        transform: scale(1.1);
+      nav {
+
+        width: 60%;
       }
     }
-
-    @media (max-width: 600px) {
-      justify-content: center;
-      width: 100%;
+    .footerFim{
+    font-size: 12px;
+    p {
+      width: 60%;
+      text-align: center;
+    }
     }
   }
-
-  .footerFim {
-    text-align: center;
-    font-size: 0.9rem;
-  }
-}
