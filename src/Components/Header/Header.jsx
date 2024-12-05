@@ -1,5 +1,4 @@
-// Importa a imagem do logo do livro, que será usada no cabeçalho
-import LogoLivro from "../../assets/LogoLivro.png";
+import LogoLivroimg from "../../assets/LogoLivro.png";
 import pesquisa from "../../assets/pesquisa.png";
 import Inicio from "../Pages/Inicio/Inicio.jsx";
 import LivrosDoados from "../Pages/LivrosDoados/LivrosDoados.jsx";
@@ -11,7 +10,7 @@ export default function Header() {
     <BrowserRouter>
       <header className={s.headerInicio}>
         <section className={s.headerSection}>
-          <img src={LogoLivro} alt="Imagem de capa do livro" className={s.headerLogo} />
+          <img src={LogoLivroimg} alt="Imagem de capa do livro" className={s.headerLogo} />
           <h1 className={s.headerTitle}>Livros Vai na Web</h1>
         </section>
           <nav className={s.headerNav}>
