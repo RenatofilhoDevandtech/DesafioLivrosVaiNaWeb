@@ -1,18 +1,20 @@
-.queroDoarsection {
+.queroDoarSection {
   height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  animation: fadeIn 1s ease-in-out;
+  background-color: #f0f8ff; 
+  p {
+    font-size: 24px;
+    color: #005695; 
+    margin: 0 10px;
+    text-align: center; 
+  }
 }
 
-.queroDoarsection p {
-  font-size: 24px;
-}
-
-.formqueroDoar {
-  border: solid #005695;
+form {
+  border: solid 2px #005695;
   border-radius: 20px;
   height: 70vh;
   width: 30%;
@@ -20,81 +22,105 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  transition: transform 0.3s ease-in-out;
+  background-color: #ffffff; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+
+  div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #005695;
+    text-align: center; 
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
 }
 
-.formqueroDoar:hover {
-  transform: scale(1.05);
-}
-
-.divformTitulo {
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: #005695;
-}
-
-.inputform {
+input {
   width: 90%;
   height: 5vh;
-  border: solid #005695;
+  border: solid 2px #005695;
   border-radius: 15px;
   padding-left: 20px;
-  transition: border-color 0.3s ease-in-out;
+  font-size: 16px;
+
+  &::placeholder {
+    color: #000;
+    font-style: italic; 
+  }
+
+  &:focus {
+    outline: none;
+    border-color: #003f72; /* Cor mais escura ao focar */
+    box-shadow: 0px 0px 5px rgba(0, 86, 149, 0.5); /* Destaque */
+  }
 }
 
-.inputform:focus {
-  border-color: #003366;
-}
-
-.inputform::placeholder {
-  color: #000;
-}
-
-.inputButtonForm {
+.buttonDoar {
   width: 50%;
   height: 8vh;
   font-size: 24px;
   background-color: #005695;
   color: #fff;
-  padding: 0;
+  border: none;
   border-radius: 15px;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
+  transition: background-color 0.3s ease;
 
-.inputButtonForm:hover {
-  background-color: #003366;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+  &:hover {
+    background-color: #003f72; /* Efeito ao passar o mouse */
   }
-  100% {
-    opacity: 1;
+
+  &:disabled {
+    background-color: #cccccc; /* Estado desabilitado */
+    cursor: not-allowed; /* Indica que não é clicável */
   }
 }
+
+.feedbackMessage {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #005695;
+  text-align: center;
+}
+
 @media (max-width: 780px) {
+  .queroDoarSection {
+    height: auto;
+    padding: 20px;
 
-  .queroDoarsection{
-     height: 100vh;
-    P{
+    p {
       font-size: 18px;
       text-align: center;
-      width: 70%;
+      width: 80%; /* Ajuste de largura */
+    }
+    img {
+      width: 100%;
+      height: auto; /* Imagem responsiva */
     }
   }
-  .formqueroDoar{
+
+  form {
     width: 90%;
     font-size: 14px;
+
+    div {
+      h2 {
+        font-size: 18px; /* Tamanho ajustado para telas menores */
+      }
+    }
   }
 
-.divformTitulo{
-
-  img{
-    width: 80%;
+  input {
+    font-size: 14px; /* Ajuste para melhor visualização em dispositivos menores */
   }
-}
+
+  .buttonDoar {
+    font-size: 18px;
+  }
 }
