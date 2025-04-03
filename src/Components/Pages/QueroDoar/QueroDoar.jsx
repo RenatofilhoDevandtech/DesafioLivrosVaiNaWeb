@@ -1,5 +1,5 @@
 import livroTitulo from '../../../assets/livroTitulo.png';
-import s from './queroDoar.module.scss';
+import s from './QueroDoar.module.scss';
 import { useState } from 'react';
 import axios from 'axios';
 
