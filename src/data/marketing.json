@@ -1,0 +1,92 @@
+{
+  "project_name": "Livros VNW",
+  "developer_name": "Renato Filho",
+  "project_full_name": "Livros Vai na Web - Tecnologia & Cultura",
+  "tagline": "Democratizando o acesso à leitura técnica e literária através de tecnologia de ponta e impacto social.",
+  "impact_metrics": {
+    "books_distributed": "15,420",
+    "careers_launched": "1,200+",
+    "co2_offset": "2.5 tons",
+    "active_sponsors": "12"
+  },
+  "github_url": "https://github.com/RenatofilhoDevandtech",
+  "linkedin_url": "https://www.linkedin.com/in/renato-filho-devandtech",
+  "portfolio_url": "https://renatofilhodev.vercel.app",
+  "mission_statement": "Nossa missão é criar pontes entre o conhecimento e quem busca transformar sua realidade, gerenciando doações de livros para democratizar o acesso à cultura e educação profissional.",
+  "vision": "Ser a maior plataforma tecnológica de inclusão e fomentação do livro como objeto transformador, criando oportunidades reais para novos leitores e profissionais de tecnologia em todo o Brasil.",
+  "values": [
+    "Comprometimento com o incentivo à leitura",
+    "Sustentabilidade e Respeito ao Meio Ambiente",
+    "Responsabilidade Social e Economia Criativa",
+    "Inovação Tecnológica com Propósito",
+    "Ética e Respeito às Diferenças"
+  ],
+  "about": {
+    "history": "Este projeto nasceu como um desafio final no programa Vai na Web, evoluindo de uma estrutura básica em HTML/CSS/Sass para uma arquitetura moderna e modular em React com Tailwind CSS. Representa o amadurecimento técnico de Renato Filho, focando em Clean Code e Business Logic voltada para impacto social.",
+    "educational_purpose": {
+      "is_fictional": true,
+      "goal": "Demonstrar potencial criativo e técnico para recrutadores e clientes, unindo design premium com soluções reais de software.",
+      "legal_notice": "Os títulos e PDFs exibidos na biblioteca são provenientes de repositórios públicos do GitHub ou APIs abertas (Google Books), mantendo o compromisso com a democratização do conhecimento sem fins lucrativos ou pirataria."
+    },
+    "impact_stats": {
+      "books_managed": "Exemplo de Escala",
+      "institutions_served": "Simulação de Impacto",
+      "monthly_average": "Dashboard Interativo"
+    }
+  },
+  "technical_evolution": {
+    "journey": [
+      "Fase 1: HTML, CSS e Sass (Fundamentos)",
+      "Fase 2: Modularização de Pastas e Componentização",
+      "Fase 3: React Moderno, Tailwind CSS e Framer Motion",
+      "Fase 4: Integração de APIs e Lógica de Negócio Social"
+    ]
+  },
+  "how_it_works": {
+    "steps": [
+      {
+        "title": "Coleta Express",
+        "desc": "Agendamos e retiramos os materiais diretamente no seu endereço para sua total comodidade."
+      },
+      {
+        "title": "Classificação Técnica",
+        "desc": "Nossa IA e equipe selecionam e separam os livros por estado de conservação e relevância tecnológica."
+      },
+      {
+        "title": "Destino com Propósito",
+        "desc": "Enviamos para ONGs, bibliotecas de periferia e o que não pode ser reusado segue para reciclagem."
+      }
+    ],
+    "logistics": {
+      "address": "Avenida Humberto de Alencar Castelo Branco, 1070 - SBC, SP",
+      "hours": "Segunda a Sexta, 08h às 17h",
+      "phone": "(85) 98525 2317",
+      "whatsapp": "https://wa.me/5585985252317"
+    }
+  },
+  "what_to_donate": [
+    "Livros Técnicos e Didáticos",
+    "HQs, Revistas e Literatura Geral",
+    "CDs, DVDs e LPs",
+    "Dispositivos Eletrônicos (Hardware)",
+    "Brinquedos e Roupas (Ações Especiais)"
+  ],
+  "vnw_tribute": {
+    "title": "Minha Base no Vai na Web",
+    "description": "Este projeto é um tributo à equipe do Vai na Web, onde dei meus primeiros passos na programação. Comecei como um aluno curioso e hoje, como desenvolvedor Júnior impulsionado pela cultura 'Vibecoding', sou capaz de construir soluções de alta complexidade e impacto visual que outrora pareciam impossíveis."
+  },
+  "sponsorship_program": {
+    "title": "Patrocínio com Propósito",
+    "description": "Sua empresa pode patrocinar trilhas de conhecimento ou lotes de livros técnicos para ONGs. Juntos, reduzimos o gap de talentos no mercado tech.",
+    "benefits": [
+      "Selo de Empresa de Impacto Social",
+      "Visibilidade em nossa rede de talentos",
+      "Relatórios de ESG detalhados",
+      "Conexão direta com novos desenvolvedores"
+    ]
+  },
+  "support_links": {
+    "whatsapp": "https://wa.me/5585985252317",
+    "email": "renatoservicesti@gmail.com"
+  }
+}

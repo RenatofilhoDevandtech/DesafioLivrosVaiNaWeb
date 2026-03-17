@@ -1,0 +1,35 @@
+export const fallbackBooks = [
+  {
+    id: 'fb-1',
+    titulo: 'Código Limpo',
+    autor: 'Robert C. Martin',
+    categoria_id: 'Tech',
+    categoria_nome: 'Programação',
+    image_url: 'https://m.media-amazon.com/images/I/41-S95k3V6L.jpg',
+    type: 'affiliate',
+    external_url: 'https://amzn.to/3ZIn8jS',
+    price: 'R$ 89,90',
+    status: 'disponível',
+  },
+  {
+    id: 'fb-2',
+    titulo: 'O Pequeno Príncipe',
+    autor: 'Antoine de Saint-Exupéry',
+    categoria_id: 'Literature',
+    categoria_nome: 'Literatura',
+    image_url: 'https://images-na.ssl-images-amazon.com/images/I/71Vkg7GfPFL.jpg',
+    type: 'donation',
+    status: 'disponível',
+  },
+  {
+    id: 'fb-3',
+    titulo: 'Estruturas de Dados e Algoritmos com JS',
+    autor: 'Loiane Groner',
+    categoria_id: 'Tech',
+    categoria_nome: 'Programação',
+    image_url: 'https://m.media-amazon.com/images/I/415V76u801L.jpg',
+    type: 'pdf',
+    external_url: 'https://github.com/loiane/javascript-datastructures-algorithms',
+    status: 'disponível',
+  }
+];
