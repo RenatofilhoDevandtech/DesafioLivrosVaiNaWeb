@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .glass-card-hover {
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-card-hover:hover {
+    background: rgba(0, 86, 149, 0.1);
+    border-color: rgba(0, 86, 149, 0.3);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  .vibrant-gradient-text {
+    background: linear-gradient(to right, #005695, #00AEEF, #005695);
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradient-x 5s ease infinite;
+  }
+
+  @keyframes gradient-x {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .magnetic-hover {
+    transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  }
+
+  .magnetic-hover:hover {
+    transform: scale(1.05);
+  }
+}
