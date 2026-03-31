@@ -60,10 +60,13 @@ A branding deste projeto foge do genérico através da filosofia de **"Remix Art
 
 ---
 
-## 💼 Conclusão
+## 🛡️ Ética de Dados e Direitos Autorais
 
-Eu acredito que o software moderno deve ser **visualmente inspirador, tecnicamente impecável e comercialmente sustentável**. Este panorama prova que domino o ciclo completo de desenvolvimento: da **Engenharia Agêntica** à **Estratégia de Produto**.
+A integridade deste projeto repousa sobre a transparência do sourcing:
+* **Repositórios Open Source:** O catálogo de PDFs utiliza links de repositórios públicos de tecnologia.
+* **Compromisso Zero Pirataria:** O projeto atua estritamente como um indexador de materiais já disponibilizados sob licenças de livre distribuição por comunidades de tecnologia, respeitando a propriedade intelectual dos autores e editoras.
 
 ---
+
 **Renato Filho**  
 *Fullstack Software Engineer | AI Innovator | Revenue Architect*

@@ -41,6 +41,7 @@ A filosofia de design da Apple (minimalismo focado) encontra a alma de Van Gogh 
 * **Resiliência Híbrida:** Mecanismo inteligente de **Fallback Offline**. Zero interrupção visual, garantindo fluidez independentemente da conexão com o servidor.
 * **Premium UX:** Interações mágicas com *Framer Motion* e *Scroll-Driven Parallax*, criando uma navegação responsiva e viva.
 * **Transparência e Conformidade:** Hub seguro, desenhado com privacidade *by design* e regido por uma licença MIT formalizada.
+* **Open Source Ethics:** Os materiais em formato PDF são provenientes de repositórios públicos. O projeto não apoia a pirataria; utilizamos exclusivamente recursos open-source para disseminar conhecimento, respeitando integralmente os direitos autorais.
 
 ---
 
