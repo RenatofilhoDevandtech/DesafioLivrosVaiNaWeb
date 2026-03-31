@@ -1,10 +1,9 @@
 <div align="center">
-  <img width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" alt="Livros Vai na Web Banner" src="https://github.com/user-attachments/assets/e73671fe-fb72-4767-8059-4333fca0b438" />
-
-  <br />
-  <br />
-
   <h1>Livros Vai na Web <br/> <span style="font-weight: 300; font-size: 0.6em; color: #888;">Art, AI & Revenue Edition</span></h1>
+   <img width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" alt="Livros Vai na Web Banner" src="https://github.com/user-attachments/assets/3b8346da-a441-4102-b373-49dd9e319120" />
+
+  <br />
+  <br />
 
   <p align="center">
     <b>Engenharia Agêntica • Estética Clássica • Lógica de Negócios</b>
